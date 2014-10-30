@@ -1,6 +1,6 @@
 {
   "name": "rising-url",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Extends require('url').format() with parameters and easier inputs",
   "main": "index.js",
   "directories": {

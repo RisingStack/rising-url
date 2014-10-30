@@ -28,6 +28,11 @@ describe('url', function () {
     expect(uri).to.be.equal('http://risingstack.com/team');
   });
 
+  it('formats with host with path', function () {
+    var uri = url.format('http://risingstack.com/team', 'john');
+    expect(uri).to.be.equal('http://risingstack.com/team/john');
+  });
+
   it('formats with path, query, hash and params', function () {
     var uri = url.format('http://risingstack.com', 'users/:user', ':page', {
       param: {
