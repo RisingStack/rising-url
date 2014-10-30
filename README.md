@@ -11,13 +11,13 @@ Extends require('url').format() with parameters and easier inputs
 Options is compatible with the [url.format(urlObj)](http://nodejs.org/api/url.html)  
 plus accept the `param` field
 
-```
+```javascript
 var url = require('rising-url');
 
 url.format('..', ..., options);
 ```
 
-```
+```javascript
 url.format('users/:user', ':page', {
   param: {
     user: 'john',
@@ -25,10 +25,10 @@ url.format('users/:user', ':page', {
   }
 });
 
-// -> 'http://risingstack.com/users/john/profile'
+// -> 'users/john/profile'
 ```
 
-```
+```javascript
 url.format('http://risingstack.com', 'users/:user', ':page', {
   param: {
     user: 'john',
