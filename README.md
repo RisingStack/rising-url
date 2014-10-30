@@ -25,7 +25,7 @@ url.format('users/:user', ':page', {
   }
 });
 
-// -> 'http://risingstack.com/users/john/profile'
+// -> 'users/john/profile'
 ```
 
 ```
