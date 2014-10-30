@@ -1,0 +1,34 @@
+{
+  "name": "rising-url",
+  "version": "1.0.0",
+  "description": "Extends require('url').format() with parameters and easier inputs",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RisingStack/rising-url"
+  },
+  "keywords": [
+    "node.js",
+    "url",
+    "format"
+  ],
+  "author": "Peter Marton, @slashdotpeter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RisingStack/rising-url/issues"
+  },
+  "homepage": "https://github.com/RisingStack/rising-url",
+  "dependencies": {
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^2.0.1"
+  }
+}
