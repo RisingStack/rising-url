@@ -9,7 +9,8 @@ Extends require('url').format() with parameters and easier inputs
 ## Example
 
 Options is compatible with the [url.format(urlObj)](http://nodejs.org/api/url.html)
- + accept the `param` field
+plus accept the `param` field
+
 ```
 var url = require('rising-url');
 
