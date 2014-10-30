@@ -8,7 +8,7 @@ Extends require('url').format() with parameters and easier inputs
 
 ## Example
 
-Options is compatible with the [url.format(urlObj)](http://nodejs.org/api/url.html)  
+Options is compatible with the [url.format(urlObj)](http://nodejs.org/api/url.html)
 plus accept the `param` field
 
 ```
